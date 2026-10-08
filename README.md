@@ -9,7 +9,7 @@ An end-to-end Machine Learning and Streamlit web application designed to forecas
 
 ---
 
-## 📌 Executive Overview
+##  Executive Overview
 
 Customer attrition directly impacts bank profitability. This project develops an end-to-end data pipeline addressing:
 - **Class Imbalance Handling**: Optimized for high churn recall (catching flight-risk customers before they depart).
@@ -18,7 +18,7 @@ Customer attrition directly impacts bank profitability. This project develops an
 
 ---
 
-## 📊 Dataset & Feature Architecture
+##  Dataset & Feature Architecture
 
 The model trains on bank demographic and transaction records:
 
@@ -44,7 +44,7 @@ The model trains on bank demographic and transaction records:
 
 ---
 
-## 📈 Model Performance & Validation
+##  Model Performance & Validation
 
 The final classifier is a tuned **Random Forest** with cost-sensitive weighting (`balanced_subsample`) optimized via 5-Fold Stratified Cross-Validation:
 
@@ -56,7 +56,7 @@ The final classifier is a tuned **Random Forest** with cost-sensitive weighting 
 
 ---
 
-## 🚀 Application Features
+##  Application Features
 
 - **Single Customer Scoring**: Input profile variables to generate real-time churn probability, risk badges (Low, Medium, Critical), and mitigation actions.
 - **Batch CSV Analysis**: Upload customer records, run vectorized predictions, and export ranked CSV files with risk classifications.
