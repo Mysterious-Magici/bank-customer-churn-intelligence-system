@@ -1,0 +1,19 @@
+# Jupyter & Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Compressed archives
+*.zip
+*.tar.gz
+archive.zip
+
+# OS artifacts
+.DS_Store
+Thumbs.db
